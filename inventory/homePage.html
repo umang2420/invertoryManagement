@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="assets/css/homePage.css">
+</head>
+
+<body>
+    <h2>Inventory Management System</h2>
+    <div class="navbar">
+        <button id="categoryButton">Add Product Categories</button>
+        <button id="productsButton">Add Products</button>
+        <button id="logoutButton">Logout</button>
+    </div>
+    <table id="categoryTable">
+        <thead>
+            <tr>
+                <th>Category Name</th>
+                <th>Description</th>
+                <th>Total Products</th>
+            </tr>
+        </thead>
+        <tbody id="categoryList">
+        </tbody>
+    </table>
+
+    <h2>Products</h2>
+    <table id="productTable">
+        <input type="text" id="searchInput" placeholder="Search by Product Name">
+        <input type="number" id="minPriceInput" placeholder="Min Price">
+        <input type="number" id="maxPriceInput" placeholder="Max Price">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>SKU</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="productList">
+        </tbody>
+    </table>
+
+    <script src="assets/js/homePage.js"></script>
+</body>
+
+</html>

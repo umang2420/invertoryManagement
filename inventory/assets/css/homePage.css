@@ -1,0 +1,89 @@
+.navbar {
+    background-color: #3b3232;
+}
+
+.navbar button {
+    float: left;
+    display: block;
+    color: rgb(51, 223, 79);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#categoryTable, #productTable {
+    width: 100%;
+    margin-top: 20px; 
+    border-collapse: collapse;
+}
+
+#categoryTable th,
+#categoryTable td,
+#productTable th,
+#productTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#categoryTable th,
+#productTable th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+#categoryTable tbody tr:nth-child(even),
+#productTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#categoryTable tbody tr:hover,
+#productTable tbody tr:hover {
+    background-color: #ddd;
+}
+.addToCart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.addToCart:hover {
+    background-color: #45a049;
+}
+
+#searchInput {
+    margin-right: 4px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#minPriceInput, #maxPriceInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 100px;
+}
+
+h2{
+    text-align: center;
+}
